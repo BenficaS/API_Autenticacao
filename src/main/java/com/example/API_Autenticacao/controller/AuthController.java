@@ -1,5 +1,5 @@
 package com.example.API_Autenticacao.controller;
-import com.example.API_Autenticacao.model.LoginRequest;
+import com.example.API_Autenticacao.model.LoguinRequest;
 import com.example.API_Autenticacao.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
@@ -12,7 +12,7 @@ public class AuthController {
     private AuthService authService;
 
     @PostMapping("/login")
-    public String login(@RequestBody LoginRequest request) {
+    public String login(@RequestBody LoguinRequest request) {
         //Aqui você pode autenticar o usuário (por exemplo, usando um banco de dados)
         //Se a autenticação for bem-sucedida, gere um token JWT
 
