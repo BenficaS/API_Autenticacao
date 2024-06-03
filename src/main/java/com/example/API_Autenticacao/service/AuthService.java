@@ -1,6 +1,6 @@
 package com.example.API_Autenticacao.service;
 
-import com.example.API_Autenticacao.security.;
+import com.example.API_Autenticacao.security.API_AutenticacaoUtil;
 import org.springframework.stereotype.Service;
 
 /**
