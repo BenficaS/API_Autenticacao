@@ -20,7 +20,7 @@ public class AuthService {
      * @return Uma string contendo o token JWT gerado.
      */
     public String generateToken(String username) {
-        String token = JwtUtil.generateToken(username);
+        String token = API_AutenticacaoUtil.generateToken(username);
         return token;
     }
 
@@ -31,7 +31,7 @@ public class AuthService {
      * @return Uma string contendo o nome de usuário extraído do token JWT.
      */
     public String extractUsername(String token) {
-        String username = JwtUtil.extractUsername(token);
+        String username = API_AutenticacaoUtil.extractUsername(token);
         return username;
     }
 }
