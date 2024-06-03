@@ -1,4 +1,4 @@
-package com.example.JWT_RestAPI.security;
+package com.example.API_Autenticacao.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
