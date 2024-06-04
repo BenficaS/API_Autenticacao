@@ -1,6 +1,8 @@
 package com.example.API_Autenticacao.model;
 
 public class LoguinRequest {
+
+
     private String username;
     private String password;
 
